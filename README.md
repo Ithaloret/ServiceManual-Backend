@@ -1,6 +1,7 @@
 <div class="markdown prose w-full break-words dark:prose-invert dark">
    <h2>EtteplanMORE.ServiceManual.Web API</h2>
       <p>Backend for a factory service manual</p>
+   <p>Instructions are intended for Visual Studio 2022</p>
    <h5>Based on https://github.com/etteplanmore/servicemanual-csharp</h5>
 
   <h3> Creating the Database using Entity Framework Core</h3>
@@ -9,7 +10,7 @@
     <li>Open the package manager console and select Project <code>EtteplanMORE.ServiceManual.ApplicationCore</code></li>
     <li>Run the following command for creating a migration <code>add-migration < migration name > </code></li>
     <li>Run the following command to update the database <code>Update-database</code></li>
-    <li>Run EtteplanMore.ServiceManua.Web to test the endpoints with Swagger</li>
+    <li>Run EtteplanMore.ServiceManual.Web to test the endpoints with Swagger</li>
   </ul>
    <h3>Base URL</h3>
    <p><code>https://localhost:57571</code></p>
