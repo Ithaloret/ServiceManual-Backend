@@ -9,6 +9,8 @@
     <li>Open the package manager console and select Project <code>EtteplanMORE.ServiceManual.ApplicationCore</code></li>
     <li>Run the following command for creating a migration <code>add-migration < migration name > </code></li>
     <li>Run the following command to update the database <code>Update-database</code></li>
+    
+    <li>Run EtteplanMore.ServiceManua.Web to test the endpoints with Swagger</li>
   </ul>
    <h3>Base URL</h3>
    <p><code>https://localhost:57571</code></p>
